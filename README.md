@@ -4,11 +4,11 @@ Repository for the Monash University Bootcamp Module 21.
 
 ## File Structure
 
-- **Starter_Code.ipynb**: The initial Jupyter Notebook containing the basic model without optimizations.
-- **AlphabetSoupCharity_Optimisation.ipynb**: The Jupyter Notebook where model optimization was performed.
-- **AlphabetSoupCharity**: Original Model file.
-- **AlphabetSoupCharity_Optimisation**: Optimized model file.
-- **README.md**: The document you're currently reading, which offers a full report of the project with an overview and its results. It also lists the included files.
+- `Starter_Code.ipynb`: The initial Jupyter Notebook containing the basic model without optimizations.
+- `AlphabetSoupCharity_Optimisation.ipynb`: The Jupyter Notebook where model optimization was performed.
+- `AlphabetSoupCharity`: Original Model file.
+- `AlphabetSoupCharity_Optimisation`: Optimized model file.
+- `README.md`: The document you're currently reading, which offers a full report of the project with an overview and its results. It also lists the included files.
 
 ## Project Overview
 
@@ -41,7 +41,8 @@ The project focuses on building a deep learning model to predict the success of 
   - **Optimized Model**: 3 layers with varied neurons and 'LeakyReLU' activation. The intent was to capture more intricate patterns in the data.
 
 - **Were you able to achieve the target model performance?**
-  - The model attained an accuracy close to 73.3%, just shy of the desired 75%.
+  - The original model had an accuracy of 72.89%. After optimization, the model's accuracy increased to approximately 73.3%, which is an improvement,     
+    albeit slight, and remains slightly under the target accuracy of 75%.
 
 - **What steps did you take to enhance model performance?**
   - **Data Preprocessing**: Dropped the 'STATUS' column and binned the 'ORGANIZATION' column.
