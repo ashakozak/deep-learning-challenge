@@ -38,7 +38,12 @@ The project focuses on building a deep learning model to predict the success of 
 
 - **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
   - **Initial Model**: 2 layers (80 and 30 neurons) with 'relu' activation. This setup served as a baseline.
+
+![Original_model](https://github.com/ashakozak/deep-learning-challenge/assets/134185577/e92e8101-ec3b-4fbc-9d44-307561a5fdc7)
+
   - **Optimized Model**: 3 layers with neuron configurations of 100, 50, and 30, all utilizing the 'relu' activation function. The model retained the original number of epochs. The intent was to capture more intricate patterns in the data.
+
+  ![Optimized_model](https://github.com/ashakozak/deep-learning-challenge/assets/134185577/e6a9c246-6156-4bfa-b3c4-4dd18dd07a16)
 
 - **Were you able to achieve the target model performance?**
   - The original model had an accuracy of 72.89%. After optimization, the model's accuracy increased to approximately 73.3%, which is an improvement, albeit slight, and remains slightly under the target accuracy of 75%.
