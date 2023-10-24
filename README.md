@@ -41,8 +41,7 @@ The project focuses on building a deep learning model to predict the success of 
   - **Optimized Model**: 3 layers with varied neurons and 'LeakyReLU' activation. The intent was to capture more intricate patterns in the data.
 
 - **Were you able to achieve the target model performance?**
-  - The original model had an accuracy of 72.89%. After optimization, the model's accuracy increased to approximately 73.3%, which is an improvement,     
-    albeit slight, and remains slightly under the target accuracy of 75%.
+  - The original model had an accuracy of 72.89%. After optimization, the model's accuracy increased to approximately 73.3%, which is an improvement, albeit slight, and remains slightly under the target accuracy of 75%.
 
 - **What steps did you take to enhance model performance?**
   - **Data Preprocessing**: Dropped the 'STATUS' column and binned the 'ORGANIZATION' column.
@@ -50,6 +49,6 @@ The project focuses on building a deep learning model to predict the success of 
 
 ### Summary
 
-The deep learning model, at its peak accuracy of 73.3%, provides a commendable predictive capability for the Alphabet Soup dataset, albeit marginally below the 75% target. Key enhancements originated from adept data preprocessing.
+The deep learning model, at its peak accuracy of 73.3%, provides a notable predictive capability for the Alphabet Soup dataset, however marginally below the 75% target. Key enhancements originated from data preprocessing.
 
-**Recommendation**: Consider exploring ensemble machine learning models like Random Forest or Gradient Boosted Trees. These models might present a superior performance balance, effectively handling both numerical and categorical data.
+**Recommendation**: While the neural network model is decent, ensemble machine learning models like Random Forest or Gradient Boosted Trees might offer improved performance. These models can handle a mix of numerical and categorical data well and might offer a better balance between performance and complexity.
