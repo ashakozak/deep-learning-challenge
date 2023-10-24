@@ -38,7 +38,7 @@ The project focuses on building a deep learning model to predict the success of 
 
 - **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
   - **Initial Model**: 2 layers (80 and 30 neurons) with 'relu' activation. This setup served as a baseline.
-  - **Optimized Model**: 3 layers with varied neurons and 'LeakyReLU' activation. The intent was to capture more intricate patterns in the data.
+  - **Optimized Model**: 3 layers with neuron configurations of 100, 50, and 30, all utilizing the 'relu' activation function. The model retained the original number of epochs. The intent was to capture more intricate patterns in the data.
 
 - **Were you able to achieve the target model performance?**
   - The original model had an accuracy of 72.89%. After optimization, the model's accuracy increased to approximately 73.3%, which is an improvement, albeit slight, and remains slightly under the target accuracy of 75%.
