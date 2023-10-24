@@ -6,8 +6,8 @@ Repository for the Monash University Bootcamp Module 21.
 
 - **Starter_Code.ipynb**: The initial Jupyter Notebook containing the basic model without optimizations.
 - **AlphabetSoupCharity_Optimisation.ipynb**: The Jupyter Notebook where model optimization was performed.
-- **nn_model**: Model file.
-- **nn_2_model**: Optimized model file.
+- **AlphabetSoupCharity**: Original Model file.
+- **AlphabetSoupCharity_Optimisation**: Optimized model file.
 - **README.md**: The document you're currently reading, which offers a full report of the project with an overview and its results. It also lists the included files.
 
 ## Project Overview
